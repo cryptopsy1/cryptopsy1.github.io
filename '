@@ -18,31 +18,17 @@
  <script>
   $(function() {
    $( "div.accordion" ).accordion({
-				heightStyle: "content",
+				heightStyle: "fill",
 				collapsible: true,
 				active: false
     });
    });
   </script>
-		<style>
-			.container {
-				}
-			.container a {
-				float: left;
-				}
-			.container img {
-				display: inline-block;
-				}
-			.accordion {
-				display: inline-block;
-				}
-
-  </style>
-	</head>
+ </head>
 <body>
-	<div class="container" style="position:absolute; left:50%; top:50%; -webkit-transform: translate(-50%,-50%);">
-	<a href="main.html"><img src="studyhard.jpeg" class="center"></a>
-	<div class="accordion" style="width:900px;">
+	<div style="position:absolute; left:50%; top:50%; -webkit-transform: translate(-50%,-50%);">
+	<a href="main.html" style="float:left;"><img src="studyhard.jpeg" ></a>
+	<div class="accordion" style="float:left; width:500px;">
 		<h3>news 1</h3><div>
 			new python
 	  </div>
